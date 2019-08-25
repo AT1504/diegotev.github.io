@@ -1,0 +1,100 @@
+
+ header {
+ 	color: #2F3D50;
+ }
+
+h2 {
+	color: #84781B;
+	text-align: center;
+	text-shadow: 4px 4px 5px #888888;
+	border-bottom: 2px;
+	border-right: 2px;
+	box-shadow: 4px 4px 5px #888888;
+
+	font-family: Georgia;
+  line-height: 1.4;
+  font-weight: normal;
+  font-stretch: normal;
+  font-variant: small-caps;
+  font-size: 30px;
+}
+
+body {
+	background-image: url(nordwood.jpg);
+	background-size: cover;
+
+	line-height: 10px;
+
+	font-family: fantasy;
+
+  font-weight: normal;
+
+  font-stretch: normal;
+
+  font-size: 130%;
+
+}
+
+span {
+	font-size: 1.5em;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	font-size: 95%
+}
+
+.webtext {
+	color:#84781B;
+	text-align: center;
+	text-shadow: 4px 4px 5px #888888;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+img {
+	margin: 6px;
+	align-items: flex-end;
+	width: 245px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform:scale(1.1);
+}
+
+.container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+img {
+	margin: 6px;
+	align-items: flex-end;
+	width: 245px;
+	
+}
+
+footer {
+	line-height: 5px;
+
+	font-family: Times New Roman;
+
+	color: #393D44;
+
+	text-align: center;
+
+  	font-weight: normal;
+
+  	font-stretch: normal;
+
+  	font-size: 70%;
+}
